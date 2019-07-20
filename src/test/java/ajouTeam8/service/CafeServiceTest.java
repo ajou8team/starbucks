@@ -3,7 +3,7 @@ package ajouTeam8.service;
 
 import ajouTeam8.domain.Customer;
 import ajouTeam8.domain.Menu;
-import ajouTeam8.repository.CafeRepository;
+import ajouTeam8.rpository.CafeRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
@@ -11,8 +11,6 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-
-import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
