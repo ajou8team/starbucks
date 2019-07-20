@@ -27,11 +27,11 @@ public class CafeService {
     public void addMenu(Menu menu){
         Menu addMenu = new Menu(menu.getMenuName(), menu.getMenuPrice());
         cafeRepository.addMenu(addMenu);
-        return;
+
     }
 
     public void addCustomer(Customer customer){
-        Customer addCustomer = new Customer(customer.getCustomerName(), customer.getNumber());
+        Customer addCustomer = new Customer(customer.getCustomerName(), customer.getNumber(), customer.getMoneyOfCustomer());
         cafeRepository.addCustomer(addCustomer);
     }
 
@@ -41,6 +41,34 @@ public class CafeService {
 //        return menu;
 //
 //    }
+
+
+
+     public Menu updatePrice(String name, int price){
+       Menu menu = findByName(name);
+       menu.setMenuPrice(price);
+
+       return menu;
+       }
+    public List<Customer> CheckCustomerList(){
+        return cafeRepository.CustomerList();
+    }
+    public Customer purchase(String Customername ,String Menuname){
+
+        Customer customer = cafeRepository.purchase(Customername,Menuname);
+
+        customer.setMoneyOfCustomer(customer.getMoneyOfCustomer()-findByName(Menuname).getMenuPrice());
+        return customer;
+    }
+
+    public int findMoneyOfCustomer(String Customername){
+        Customer customer =cafeRepository.findMoneyofCustomer(Customername);
+
+
+        return customer.getMoneyOfCustomer();
+    }
+
+
 
 
 }

@@ -13,4 +13,12 @@ public interface CafeRepository {
     void addMenu(Menu menu);
 
     void addCustomer(Customer customer);
+
+
+
+    Menu updatePrice(String name,int price);
+    List<Customer> CustomerList();
+    Customer purchase(String Customername, String menuname);
+    Customer findMoneyofCustomer(String name);
+
 }
