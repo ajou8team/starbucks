@@ -18,6 +18,12 @@ public class CafeService {
         return menu;
     }
 
+    public void addMenu(Menu menu){
+        Menu addMenu = new Menu(menu.getMenuName(), menu.getMenuPrice());
+        cafeRepository.addMenu(addMenu);
+        return;
+    }
+
 
 
 }
