@@ -1,5 +1,6 @@
 package ajouTeam8.service;
 
+import ajouTeam8.domain.Menu;
 import ajouTeam8.rpository.CafeRepository;
 
 public class CafeService {
@@ -10,6 +11,11 @@ public class CafeService {
 
         this.cafeRepository = cafeRepository;
 
+    }
+
+    public Menu findByName(String name){
+        Menu menu = cafeRepository.findByName(name);
+        return menu;
     }
 
 
