@@ -1,5 +1,6 @@
 package ajouTeam8.service;
 
+import ajouTeam8.domain.Customer;
 import ajouTeam8.domain.Menu;
 import ajouTeam8.rpository.CafeRepository;
 
@@ -28,6 +29,12 @@ public class CafeService {
         cafeRepository.addMenu(addMenu);
         return;
     }
+
+    public void addCustomer(Customer customer){
+        Customer addCustomer = new Customer(customer.getCustomerName(), customer.getNumber());
+        cafeRepository.addCustomer(addCustomer);
+    }
+
 
 
 
