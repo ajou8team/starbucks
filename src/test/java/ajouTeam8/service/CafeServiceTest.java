@@ -2,14 +2,21 @@ package ajouTeam8.service;
 
 
 import ajouTeam8.domain.Customer;
-import ajouTeam8.rpository.CafeRepository;
+import ajouTeam8.domain.Menu;
+import ajouTeam8.repository.CafeRepository;
+import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
 
+
+import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.*;
 
@@ -21,6 +28,11 @@ public class CafeServiceTest {
 
     @InjectMocks
     private CafeService cafeService;
+
+    @Before
+    public void setup(){
+        MockitoAnnotations.initMocks(this); //without this you will get NPE
+    }
 
     @Test
     public void 고객_이름을_불러오면_무조건_해진을_리턴한다() {
@@ -61,5 +73,21 @@ public class CafeServiceTest {
         Customer customer = mock(Customer.class);
         customer.setMoneyOfCustomer(100000);
         verify(customer).setMoneyOfCustomer(anyInt());
+    }
+
+    //홍지호
+    @Test
+    public void verify_findByName_method_call(){
+        Mockito.when(cafeService.findByName("아아")).thenReturn(new Menu("americano", 4000));
+        Menu menu = cafeService.findByName("아아");
+        assertThat(menu.getMenuName(), is("americano"));
+        verify(cafeRepository, times(1)).findByName("아아");
+    }
+
+    @Test
+    public void verify_findByName_by_BDD(){
+        given(cafeRepository.findByName("americano")).willReturn(new Menu("americano", 4000));
+        Menu menu = cafeService.findByName("americano");
+        verify(cafeRepository, times(1)).findByName("americano");
     }
 }
