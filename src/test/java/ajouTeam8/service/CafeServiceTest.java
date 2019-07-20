@@ -16,6 +16,7 @@ import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.*;
 
@@ -83,4 +84,10 @@ public class CafeServiceTest {
         verify(cafeRepository, times(1)).findByName("아아");
     }
 
+    @Test
+    public void verify_findByName_by_BDD(){
+        given(cafeRepository.findByName("americano")).willReturn(new Menu("americano", 4000));
+        Menu menu = cafeService.findByName("americano");
+        verify(cafeRepository, times(1)).findByName("americano");
+    }
 }
