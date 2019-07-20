@@ -2,6 +2,7 @@ package ajouTeam8.service;
 
 
 import ajouTeam8.domain.Customer;
+import ajouTeam8.domain.Menu;
 import ajouTeam8.rpository.CafeRepository;
 import org.junit.Test;
 import org.mockito.InjectMocks;
@@ -61,5 +62,14 @@ public class CafeServiceTest {
         Customer customer = mock(Customer.class);
         customer.setMoneyOfCustomer(100000);
         verify(customer).setMoneyOfCustomer(anyInt());
+    }
+
+    //홍지호
+    @Test
+    public void verify_findByName_method_call(){
+        when(cafeService.findByName("아아")).thenReturn(new Menu("americano", 4000));
+        Menu menu = cafeService.findByName("아아");
+        assertThat(menu.getMenuName(), is("americano"));
+        verify(cafeRepository, times(1)).findByName("americano");
     }
 }
