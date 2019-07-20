@@ -8,7 +8,5 @@ import lombok.Data;
 public class Customer {
     private String customerName;
     private int number;
-
-
     private int MoneyOfCustomer;
 }
