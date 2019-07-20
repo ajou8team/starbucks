@@ -15,7 +15,9 @@ public class App
     {
         System.out.println( "test용" );
 
+
         int count =0;
+        //고객 수
         Scanner scan = new Scanner(System.in);
 
         System.out.println( "당신의 이름을 입력하시오" );
