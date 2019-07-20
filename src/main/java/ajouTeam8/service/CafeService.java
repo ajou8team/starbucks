@@ -35,7 +35,12 @@ public class CafeService {
         cafeRepository.addCustomer(addCustomer);
     }
 
-
+//    public Menu updatePriceByName(String name, int price){
+//        Menu menu = findByName(name);
+//        menu.setMenuPrice(price);
+//        return menu;
+//
+//    }
 
 
 }
