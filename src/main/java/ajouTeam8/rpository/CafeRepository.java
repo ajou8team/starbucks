@@ -9,4 +9,6 @@ public interface CafeRepository {
 
     Menu findByName(String name);
 
+    void addMenu(Menu menu);
+
 }
