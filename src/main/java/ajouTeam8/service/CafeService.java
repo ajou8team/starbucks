@@ -2,7 +2,7 @@ package ajouTeam8.service;
 
 import ajouTeam8.domain.Customer;
 import ajouTeam8.domain.Menu;
-import ajouTeam8.rpository.CafeRepository;
+import ajouTeam8.repository.CafeRepository;
 
 import java.util.List;
 
@@ -48,12 +48,8 @@ public class CafeService {
 
 
     public int purchase(Customer Customername ,Menu Menuname){
-        int MoneyLeft = cafeRepository.purchase(Customername,Menuname);
-
-
-        MoneyLeft = Customername.getMoneyOfCustomer() - Menuname.getMenuPrice();
+        int MoneyLeft = Customername.getMoneyOfCustomer() - Menuname.getMenuPrice();
         cafeRepository.purchase(Customername,Menuname);
-
 
         return MoneyLeft;
     }

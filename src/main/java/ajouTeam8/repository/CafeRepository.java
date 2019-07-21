@@ -1,4 +1,4 @@
-package ajouTeam8.rpository;
+package ajouTeam8.repository;
 
 import ajouTeam8.domain.Customer;
 import ajouTeam8.domain.Menu;
