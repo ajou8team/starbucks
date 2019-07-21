@@ -35,39 +35,34 @@ public class CafeService {
         cafeRepository.addCustomer(addCustomer);
     }
 
-//    public Menu updatePriceByName(String name, int price){
-//        Menu menu = findByName(name);
-//        menu.setMenuPrice(price);
-//        return menu;
-//
-//    }
-
-
-
-     public Menu updatePrice(String name, int price){
-       Menu menu = findByName(name);
-       menu.setMenuPrice(price);
-
-       return menu;
-       }
-
 
     public List<Customer> CheckCustomerList(){
         return cafeRepository.CustomerList();
     }
-    public Customer purchase(String Customername ,String Menuname){
 
-        Customer customer = cafeRepository.purchase(Customername,Menuname);
-
-        customer.setMoneyOfCustomer(customer.getMoneyOfCustomer()-findByName(Menuname).getMenuPrice());
+    public Customer findCustomerByName(String name){
+        Customer customer = cafeRepository.findCustomerByName(name);
         return customer;
     }
 
-    public int findMoneyOfCustomer(String Customername){
-        Customer customer =cafeRepository.findMoneyofCustomer(Customername);
+
+    public int purchase(Customer Customername ,Menu Menuname){
+
+    int MoneyLeft = cafeRepository.purchase(Customername,Menuname);
+
+    MoneyLeft = Customername.getMoneyOfCustomer() - Menuname.getMenuPrice();
+    cafeRepository.purchase(Customername,Menuname);
+
+    return MoneyLeft;
+    }
+
+    public int findMoneyOfCustomer(Customer customer){
 
 
-        return customer.getMoneyOfCustomer();
+        int TheMoneyLeft = customer.getMoneyOfCustomer();
+
+        cafeRepository.findMoneyofCustomer(customer);
+        return TheMoneyLeft;
     }
 
 

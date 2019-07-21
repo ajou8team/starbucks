@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="29776ef3-e978-47fc-a1a3-7514a638085e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/CafeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/CafeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ajouTeam8/rpository/CafeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ajouTeam8/rpository/CafeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ajouTeam8/service/CafeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ajouTeam8/service/CafeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ajouTeam8/service/CafeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ajouTeam8/service/CafeServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,23 +22,9 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.44381493">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="456">
-                  <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#382#383#0" expanded="true" />
-                    <element signature="e#429#430#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -47,25 +34,50 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1406">
-                  <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+                <state relative-caret-position="2869">
+                  <caret line="159" selection-start-line="159" selection-end-line="159" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#718#719#0" expanded="true" />
-                    <element signature="e#800#801#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/AppTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="133">
+                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="103">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/CafeRepository.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+                <state relative-caret-position="285">
+                  <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
@@ -85,16 +97,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="358">
-                  <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+                <state relative-caret-position="549">
+                  <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#382#383#0" expanded="true" />
-                    <element signature="e#429#430#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -103,8 +113,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/App.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="188">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="23">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -140,11 +150,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/service/cafeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/cafeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Custom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/CafeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/CafeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java" />
         <option value="$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java" />
       </list>
@@ -158,9 +168,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="325" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,8 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +235,15 @@
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ajouTeam8" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starbucks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,7 +282,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../unit-test-2week" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -286,9 +311,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CafeServiceTest.고객리스트를_반환하는_메서드_작성">
+  <component name="RunManager" selected="JUnit.CafeServiceTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ajouTeam8.App" />
+      <module name="starbucks2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ajouTeam8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CafeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starbucks" />
+      <module name="starbucks2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ajouTeam8.service.*" />
@@ -302,8 +340,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CafeServiceTest.고객리스트를_반환하는_메서드_작성" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starbucks" />
+    <configuration name="CafeServiceTest.고객이주문시금액차감여부확인" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starbucks2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ajouTeam8.service.*" />
@@ -312,14 +350,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="ajouTeam8.service" />
       <option name="MAIN_CLASS_NAME" value="ajouTeam8.service.CafeServiceTest" />
-      <option name="METHOD_NAME" value="고객리스트를_반환하는_메서드_작성" />
+      <option name="METHOD_NAME" value="고객이주문시금액차감여부확인" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CafeServiceTest.모든_메류_리턴메서드_1이상_실행여부_확인" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starbucks" />
+    <configuration name="CafeServiceTest.고객의잔액조회메소드확인" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starbucks2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ajouTeam8.service.*" />
@@ -328,14 +366,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="ajouTeam8.service" />
       <option name="MAIN_CLASS_NAME" value="ajouTeam8.service.CafeServiceTest" />
-      <option name="METHOD_NAME" value="모든_메류_리턴메서드_1이상_실행여부_확인" />
+      <option name="METHOD_NAME" value="고객의잔액조회메소드확인" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CafeServiceTest.메뉴를_더하는_메서드_살행_여부확인" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starbucks" />
+    <configuration name="CafeServiceTest.verify_findByName_by_BDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starbucks2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ajouTeam8.service.*" />
@@ -344,23 +382,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ajouTeam8.service" />
       <option name="MAIN_CLASS_NAME" value="ajouTeam8.service.CafeServiceTest" />
-      <option name="METHOD_NAME" value="메뉴를_더하는_메서드_살행_여부확인" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CafeServiceTest.verify_findByName_method_call" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starbucks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ajouTeam8.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ajouTeam8.service" />
-      <option name="MAIN_CLASS_NAME" value="ajouTeam8.service.CafeServiceTest" />
-      <option name="METHOD_NAME" value="verify_findByName_method_call" />
+      <option name="METHOD_NAME" value="verify_findByName_by_BDD" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,11 +390,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CafeServiceTest.고객리스트를_반환하는_메서드_작성" />
-        <item itemvalue="JUnit.CafeServiceTest.메뉴를_더하는_메서드_살행_여부확인" />
-        <item itemvalue="JUnit.CafeServiceTest.모든_메류_리턴메서드_1이상_실행여부_확인" />
-        <item itemvalue="JUnit.CafeServiceTest.verify_findByName_method_call" />
         <item itemvalue="JUnit.CafeServiceTest" />
+        <item itemvalue="JUnit.CafeServiceTest.verify_findByName_by_BDD" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.CafeServiceTest.고객의잔액조회메소드확인" />
+        <item itemvalue="JUnit.CafeServiceTest.고객이주문시금액차감여부확인" />
       </list>
     </recent_temporary>
   </component>
@@ -387,6 +409,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563512162921</updated>
       <workItem from="1563596914872" duration="1447000" />
+      <workItem from="1563695226259" duration="11119000" />
     </task>
     <task id="LOCAL-00001" summary="add Customer class(price)&#10;add CafeService updatePrice, purchase, CheckCustomerList,findMoneyOfCustomer">
       <created>1563598015361</created>
@@ -406,30 +429,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CafeServiceTest_고객_이름을_불러오면_무조건_해진을_리턴한다 - 2019.07.20 at 16h 24m 00s.xml">
-      <configuration name="CafeServiceTest.고객_이름을_불러오면_무조건_해진을_리턴한다" configurationId="JUnit" />
+    <history-entry file="CafeServiceTest_고객이주문시금액차감여부확인 - 2019.07.21 at 19h 24m 34s.xml">
+      <configuration name="CafeServiceTest.고객이주문시금액차감여부확인" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CafeServiceTest_verify_findByName_method_call - 2019.07.21 at 03h 13m 10s.xml">
-      <configuration name="CafeServiceTest.verify_findByName_method_call" configurationId="JUnit" />
+    <history-entry file="CafeServiceTest_고객이주문시금액차감여부확인 - 2019.07.21 at 19h 25m 34s.xml">
+      <configuration name="CafeServiceTest.고객이주문시금액차감여부확인" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CafeServiceTest_모든_메류_리턴메서드_1이상_실행여부_확인 - 2019.07.21 at 15h 27m 51s.xml">
-      <configuration name="CafeServiceTest.모든_메류_리턴메서드_1이상_실행여부_확인" configurationId="JUnit" />
+    <history-entry file="CafeServiceTest_고객이주문시금액차감여부확인 - 2019.07.21 at 19h 26m 38s.xml">
+      <configuration name="CafeServiceTest.고객이주문시금액차감여부확인" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CafeServiceTest_메뉴를_더하는_메서드_살행_여부확인 - 2019.07.21 at 15h 35m 55s.xml">
-      <configuration name="CafeServiceTest.메뉴를_더하는_메서드_살행_여부확인" configurationId="JUnit" />
+    <history-entry file="CafeServiceTest_고객이주문시금액차감여부확인 - 2019.07.21 at 19h 27m 47s.xml">
+      <configuration name="CafeServiceTest.고객이주문시금액차감여부확인" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CafeServiceTest_고객리스트를_반환하는_메서드_작성 - 2019.07.21 at 15h 50m 31s.xml">
-      <configuration name="CafeServiceTest.고객리스트를_반환하는_메서드_작성" configurationId="JUnit" />
+    <history-entry file="CafeServiceTest_고객이주문시금액차감여부확인 - 2019.07.21 at 19h 35m 33s.xml">
+      <configuration name="CafeServiceTest.고객이주문시금액차감여부확인" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CafeServiceTest_고객의잔액조회메소드확인 - 2019.07.21 at 19h 38m 03s.xml">
+      <configuration name="CafeServiceTest.고객의잔액조회메소드확인" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CafeServiceTest_고객의잔액조회메소드확인 - 2019.07.21 at 19h 48m 35s.xml">
+      <configuration name="CafeServiceTest.고객의잔액조회메소드확인" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CafeServiceTest_verify_findByName_by_BDD - 2019.07.21 at 19h 50m 19s.xml">
+      <configuration name="CafeServiceTest.verify_findByName_by_BDD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CafeServiceTest_verify_findByName_by_BDD - 2019.07.21 at 19h 50m 30s.xml">
+      <configuration name="CafeServiceTest.verify_findByName_by_BDD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CafeServiceTest - 2019.07.21 at 19h 50m 39s.xml">
+      <configuration name="CafeServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1492000" />
+    <option name="totallyTimeSpent" value="12611000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1704698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +476,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15886524" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04918033" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,7 +486,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.34918034" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32972136" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Thumbnails" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -461,39 +499,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1704698" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15886524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972136" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.34918034" />
-      <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32972136" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Thumbnails" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -521,33 +526,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="103">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="133">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -561,33 +567,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/CafeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="549">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
           </folding>
         </state>
       </provider>

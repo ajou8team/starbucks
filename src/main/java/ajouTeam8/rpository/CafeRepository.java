@@ -16,9 +16,9 @@ public interface CafeRepository {
 
 
 
-    Menu updatePrice(String name,int price);
-    List<Customer> CustomerList();
-    Customer purchase(String Customername, String menuname);
-    Customer findMoneyofCustomer(String name);
 
+    List<Customer> CustomerList();
+    int purchase(Customer Customername, Menu menuname);
+    int findMoneyofCustomer(Customer customer);
+    Customer findCustomerByName(String name);
 }
