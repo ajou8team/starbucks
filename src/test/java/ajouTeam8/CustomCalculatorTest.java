@@ -21,11 +21,11 @@ public class CustomCalculatorTest {
 
         Menu firstMenu = new Menu("아메리카노",3000);
         Menu secondMenu = new Menu("블루베리요거트스무디", 5500);
-        Menu thridMenu = new Menu("카페라뗴",4500);
+        Menu thirdMenu = new Menu("카페라뗴",4500);
 
         menuList.add(firstMenu);
         menuList.add(secondMenu);
-        menuList.add(thridMenu);
+        menuList.add(thirdMenu);
     }
 
     @Test
@@ -43,8 +43,17 @@ public class CustomCalculatorTest {
     @Test
     public void subtract(){
 
+        customCalculator = new CustomCalculator();
+        int result = customCalculator.subtract(8500,menuList.get(0).getMenuPrice());
+
+        assertThat(result, is(5500));
+
+        System.out.println("result : " + result);
+
 
     }
+
+    @Test
 
 
 
