@@ -11,9 +11,4 @@ public class CustomCalculator {
 
     }
 
-    public double divide(double valueNum1, double valueNum2){
-        return valueNum1 / valueNum2;
-    }
-
-
 }
