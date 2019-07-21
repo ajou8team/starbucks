@@ -14,14 +14,14 @@ import static org.junit.Assert.assertThat;
 public class CustomCalculatorTest {
 
     private CustomCalculator customCalculator;
-    private List<Menu> menuList =new ArrayList<>();
+    private List<Menu> menuList = new ArrayList<>();
 
     @Before
-    public void setUp(){
+    public void setUp() {
 
-        Menu firstMenu = new Menu("아메리카노",3000);
+        Menu firstMenu = new Menu("아메리카노", 3000);
         Menu secondMenu = new Menu("블루베리요거트스무디", 5500);
-        Menu thirdMenu = new Menu("카페라뗴",4500);
+        Menu thirdMenu = new Menu("카페라뗴", 4500);
 
         menuList.add(firstMenu);
         menuList.add(secondMenu);
@@ -29,22 +29,22 @@ public class CustomCalculatorTest {
     }
 
     @Test
-    public void add(){
+    public void add() {
 
         customCalculator = new CustomCalculator();
-        int result = customCalculator.add(menuList.get(0).getMenuPrice(),menuList.get(1).getMenuPrice());
+        int result = customCalculator.add(menuList.get(0).getMenuPrice(), menuList.get(1).getMenuPrice());
 
         assertThat(result, is(8500));
 
-        System.out.println("result : "+result);
+        System.out.println("result : " + result);
     }
 
 
     @Test
-    public void subtract(){
+    public void subtract() {
 
         customCalculator = new CustomCalculator();
-        int result = customCalculator.subtract(8500,menuList.get(0).getMenuPrice());
+        int result = customCalculator.subtract(8500, menuList.get(0).getMenuPrice());
 
         assertThat(result, is(5500));
 
@@ -52,9 +52,5 @@ public class CustomCalculatorTest {
 
 
     }
-
-    @Test
-
-
 
 }
