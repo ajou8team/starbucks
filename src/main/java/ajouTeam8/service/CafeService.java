@@ -48,12 +48,8 @@ public class CafeService {
 
 
     public int purchase(Customer Customername ,Menu Menuname){
-        int MoneyLeft = cafeRepository.purchase(Customername,Menuname);
-
-
-        MoneyLeft = Customername.getMoneyOfCustomer() - Menuname.getMenuPrice();
+        int MoneyLeft = Customername.getMoneyOfCustomer() - Menuname.getMenuPrice();
         cafeRepository.purchase(Customername,Menuname);
-
 
         return MoneyLeft;
     }
