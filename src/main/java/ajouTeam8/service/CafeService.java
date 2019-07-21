@@ -15,7 +15,7 @@ public class CafeService {
         this.cafeRepository = cafeRepository;
 
     }
-    public List<Menu> findAllMenu(){
+    public List<Menu> findAll(){
         return cafeRepository.findAll();
     }
 
@@ -50,6 +50,8 @@ public class CafeService {
 
        return menu;
        }
+
+
     public List<Customer> CheckCustomerList(){
         return cafeRepository.CustomerList();
     }

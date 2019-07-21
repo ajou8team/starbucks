@@ -12,6 +12,8 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 
+import java.util.List;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.given;
@@ -73,6 +75,50 @@ public class CafeServiceTest {
         verify(customer).setMoneyOfCustomer(anyInt());
     }
 
+    @Test
+    public void 메뉴리스트_크기메서드_실행_테스트(){
+        List<Menu> menuList = mock(List.class);
+        menuList.size();
+        verify(menuList,atLeastOnce()).size();
+    }
+
+    @Test
+    public void 모든_메류_리턴메서드_1이상_실행여부_확인(){
+        List<Menu> menuList = mock(List.class);
+        when(cafeService.findAll()).thenReturn(menuList);
+        cafeService.findAll();
+        verify(cafeRepository,atLeastOnce()).findAll();
+    }
+
+    @Test
+    public void 메뉴를_더하는_메서드_살행_여부확인(){
+        Menu menu = mock(Menu.class);
+        cafeService.addMenu(menu);
+        verify(cafeRepository).addMenu(any(Menu.class));
+
+    }
+
+    @Test
+    public void 손님을_더하는_메서드_살행_여부확인(){
+        Customer customer = mock(Customer.class);
+        cafeService.addCustomer(customer);
+        verify(cafeRepository).addCustomer(any(Customer.class));
+
+    }
+
+    @Test
+    public void 고객리스트를_반환하는_메서드_작성(){
+        List<Customer> customerList = mock(List.class);
+        when(customerList.size()).thenReturn(10);
+        when(cafeService.CheckCustomerList()).thenReturn(customerList);
+
+        assertThat(cafeService.CheckCustomerList().size(),is(10));
+        verify(cafeRepository).CustomerList();
+
+    }
+
+    
+
     //홍지호
     @Test
     public void verify_findByName_method_call(){
@@ -88,4 +134,6 @@ public class CafeServiceTest {
         Menu menu = cafeService.findByName("americano");
         verify(cafeRepository, times(1)).findByName("americano");
     }
+
+
 }
