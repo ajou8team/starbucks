@@ -10,8 +10,5 @@
         <module name="starbucks2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="starbucks" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
