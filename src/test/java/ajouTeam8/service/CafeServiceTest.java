@@ -86,7 +86,7 @@ public class CafeServiceTest {
     }
 
     @Test
-    public void 모든_메류_리턴메서드_1이상_실행여부_확인(){
+    public void 모든_메뉴_리턴메서드_1이상_실행여부_확인(){
         List<Menu> menuList = mock(List.class);
         when(cafeService.findAll()).thenReturn(menuList);
         cafeService.findAll();
@@ -94,7 +94,7 @@ public class CafeServiceTest {
     }
 
     @Test
-    public void 메뉴를_더하는_메서드_살행_여부확인(){
+    public void 메뉴를_더하는_메서드_실행_여부확인(){
         Menu menu = mock(Menu.class);
         cafeService.addMenu(menu);
         verify(cafeRepository).addMenu(any(Menu.class));
@@ -102,7 +102,7 @@ public class CafeServiceTest {
     }
 
     @Test
-    public void 손님을_더하는_메서드_살행_여부확인(){
+    public void 손님을_더하는_메서드_실행_여부확인(){
         Customer customer = mock(Customer.class);
         cafeService.addCustomer(customer);
         verify(cafeRepository).addCustomer(any(Customer.class));
