@@ -4,17 +4,20 @@ package ajouTeam8.service;
 import ajouTeam8.domain.Customer;
 import ajouTeam8.domain.Menu;
 import ajouTeam8.rpository.CafeRepository;
+import org.hamcrest.core.Is;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.mockito.internal.matchers.Null;
 
 
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyString;
@@ -134,6 +137,45 @@ public class CafeServiceTest {
         Menu menu = cafeService.findByName("americano");
         verify(cafeRepository, times(1)).findByName("americano");
     }
+
+
+    @Test
+   public void 고객의잔액조회메소드확인(){
+
+        Mockito.when(cafeService.findCustomerByName("치완")).thenReturn(new Customer("치완", 2, 10000));
+        int MoneyCheck = cafeService.findCustomerByName("치완").getMoneyOfCustomer();
+        assertThat(MoneyCheck, Is.is(10000));
+
+        Customer testcustomer = new Customer("송",2,100);
+       int Money = cafeService.findMoneyOfCustomer(testcustomer);
+       assertThat(Money, Is.is(100));
+
+
+        verify(cafeRepository, times(1)).findCustomerByName(anyString());
+
+
+   }
+   @Test
+    public void 고객이주문시금액차감여부확인(){
+
+       Mockito.when(cafeService.findCustomerByName("치완")).thenReturn(new Customer("치완",3,500));
+       Mockito.when(cafeService.findByName("치즈케이크")).thenReturn(new Menu("치즈케이크",400));
+
+       Customer customer = cafeService.findCustomerByName("치완");
+       Menu menu = cafeService.findByName("치즈케이크");
+
+       int MoneyLeft = cafeService.purchase(customer,menu);
+       assertEquals(MoneyLeft,100);
+
+   }
+
+
+
+
+
+
+
+
 
 
 }
