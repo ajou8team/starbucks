@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29776ef3-e978-47fc-a1a3-7514a638085e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ajouTeam8/CustomCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/starbucks.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ajouTeam8/service/CafeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ajouTeam8/service/CafeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ajouTeam8/service/CafeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ajouTeam8/service/CafeServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="608">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,11 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="1900">
               <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/CustomCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="290">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,11 +134,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Custom.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/CafeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java" />
         <option value="$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/ajouTeam8/CustomCalculatorTest.java" />
       </list>
     </option>
@@ -299,22 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CafeServiceTest.고객리스트를_반환하는_메서드_작성">
-    <configuration name="CafeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starbucks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ajouTeam8.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ajouTeam8.service" />
-      <option name="MAIN_CLASS_NAME" value="ajouTeam8.service.CafeServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CustomCalculatorTest.subtract">
     <configuration name="CafeServiceTest.고객리스트를_반환하는_메서드_작성" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="starbucks" />
       <extension name="coverage">
@@ -363,17 +348,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CafeServiceTest.verify_findByName_method_call" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomCalculatorTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="starbucks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ajouTeam8.service.*" />
+          <option name="PATTERN" value="ajouTeam8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ajouTeam8.service" />
-      <option name="MAIN_CLASS_NAME" value="ajouTeam8.service.CafeServiceTest" />
-      <option name="METHOD_NAME" value="verify_findByName_method_call" />
+      <option name="PACKAGE_NAME" value="ajouTeam8" />
+      <option name="MAIN_CLASS_NAME" value="ajouTeam8.CustomCalculatorTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomCalculatorTest.subtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starbucks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ajouTeam8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ajouTeam8" />
+      <option name="MAIN_CLASS_NAME" value="ajouTeam8.CustomCalculatorTest" />
+      <option name="METHOD_NAME" value="subtract" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -381,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomCalculatorTest.subtract" />
+        <item itemvalue="JUnit.CustomCalculatorTest.add" />
         <item itemvalue="JUnit.CafeServiceTest.고객리스트를_반환하는_메서드_작성" />
         <item itemvalue="JUnit.CafeServiceTest.메뉴를_더하는_메서드_살행_여부확인" />
         <item itemvalue="JUnit.CafeServiceTest.모든_메류_리턴메서드_1이상_실행여부_확인" />
-        <item itemvalue="JUnit.CafeServiceTest.verify_findByName_method_call" />
-        <item itemvalue="JUnit.CafeServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -434,6 +435,12 @@
     <history-entry file="CafeServiceTest_고객리스트를_반환하는_메서드_작성 - 2019.07.21 at 15h 50m 31s.xml">
       <configuration name="CafeServiceTest.고객리스트를_반환하는_메서드_작성" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomCalculatorTest_add - 2019.07.21 at 22h 08m 54s.xml">
+      <configuration name="CustomCalculatorTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomCalculatorTest_subtract - 2019.07.21 at 22h 13m 16s.xml">
+      <configuration name="CustomCalculatorTest.subtract" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1492000" />
@@ -450,7 +457,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15886524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32855093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,33 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/rpository/CafeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -579,7 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/service/CafeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="608">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -589,17 +569,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/service/CafeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/domain/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="190">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/CustomCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="290">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
