@@ -36,6 +36,7 @@ public class CafeService {
     }
 
 
+
     public List<Customer> CheckCustomerList(){
         return cafeRepository.CustomerList();
     }
@@ -47,13 +48,14 @@ public class CafeService {
 
 
     public int purchase(Customer Customername ,Menu Menuname){
+        int MoneyLeft = cafeRepository.purchase(Customername,Menuname);
 
-    int MoneyLeft = cafeRepository.purchase(Customername,Menuname);
 
-    MoneyLeft = Customername.getMoneyOfCustomer() - Menuname.getMenuPrice();
-    cafeRepository.purchase(Customername,Menuname);
+        MoneyLeft = Customername.getMoneyOfCustomer() - Menuname.getMenuPrice();
+        cafeRepository.purchase(Customername,Menuname);
 
-    return MoneyLeft;
+
+        return MoneyLeft;
     }
 
     public int findMoneyOfCustomer(Customer customer){
