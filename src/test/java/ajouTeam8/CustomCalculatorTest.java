@@ -1,6 +1,6 @@
+//모현민
 package ajouTeam8;
 
-import ajouTeam8.domain.Customer;
 import ajouTeam8.domain.Menu;
 import org.junit.Before;
 import org.junit.Test;
