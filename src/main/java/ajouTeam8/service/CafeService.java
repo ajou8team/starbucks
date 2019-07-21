@@ -46,6 +46,7 @@ public class CafeService {
     public List<Customer> CheckCustomerList(){
         return cafeRepository.CustomerList();
     }
+
     public Customer purchase(String Customername ,String Menuname){
 
         Customer customer = cafeRepository.purchase(Customername,Menuname);
