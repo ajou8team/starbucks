@@ -1,8 +1,8 @@
-##Starbucks - cafe manage system
+## Starbucks - cafe manage system
 ### domain :
 + Customer (customerName, number, moneyOfCustomer)
 + Menu (menuName, menuPrice)
-###service:
+### service:
 + findAll() : return all Menu list
 + findByName(name) : return Menu by fit name
 + addMenu(menu) : add new menu in menu list
