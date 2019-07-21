@@ -2,7 +2,7 @@ package ajouTeam8.service;
 
 import ajouTeam8.domain.Customer;
 import ajouTeam8.domain.Menu;
-import ajouTeam8.rpository.CafeRepository;
+import ajouTeam8.repository.CafeRepository;
 
 import java.util.List;
 
