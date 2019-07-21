@@ -66,6 +66,15 @@ public class CafeServiceTest {
         assertThat(cafeService.CheckCustomerList().size(), is(10));
         verify(cafeRepository).CustomerList();
     }
+    @Test
+    public void purchaceTest(){
+        Customer customer = mock(Customer.class);
+        Menu menu = mock(Menu.class);
+        when(cafeRepository.purchase(any(Customer.class),any(Menu.class))).thenReturn(1000);
+
+        assertThat(cafeRepository.purchase(customer,menu),is(1000));
+        verify(cafeRepository, times(1)).purchase(any(Customer.class),any(Menu.class));
+    }
 
     //모현민
     @Test
